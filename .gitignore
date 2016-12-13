@@ -1,20 +1,2 @@
-# ignore Apple's meta data files
-#
-.DS_Store
-
-# ignore KDE's meta-data files
-#
-.directory
-
-# ignore SVN files
-#
-.svn/
-*.svn
-
-# ignore vim swap files
-#
-*.swp
-
-# ignore vim's netrwhist
-#
-.netrwhist
+_site
+Gemfile.lock
