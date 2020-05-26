@@ -1,0 +1,9 @@
+version: "3.0"
+services:
+    build:
+        image: jekyll/jekyll:latest
+        ports:
+            - 4000:4000
+        volumes:
+            - .:/srv/jekyll
+        command: bash -c "bundle install; bundle update github-pages; jekyll serve"
